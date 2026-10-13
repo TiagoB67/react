@@ -1,8 +1,4 @@
-import React from 'react'
-
-type Props = {}
-
-export default function card({}: Props) {
+export default function Card() {
   return (
      <div className="card"> 
         <h2>Susi</h2>
