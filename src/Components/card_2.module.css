@@ -1,6 +1,3 @@
-* {
-  background-color: forestgreen;
-}
 .candy {
   background-color: red;
   border: 6px solid purple;
@@ -11,11 +8,4 @@
 .candy img {
   width: 200px;
   height: 200px;
-}
-.container {
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  gap: 20px;
-  display: flex;
 }
