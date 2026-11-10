@@ -8,12 +8,14 @@ image: string
 }
 
 export default function Sweets({title, text, image}: Props) {
+  const random = Math.random();
 
   return (
      <div className={styles.candy}> 
-        <h2></h2>{title}
-        <img src={image} />
+        <h2>{title}</h2>
+        <img src={image + "?" + random} />
         <p>{text}</p>
+        <p>{random}</p>
       </div>
   )
 }
