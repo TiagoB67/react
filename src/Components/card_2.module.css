@@ -3,9 +3,6 @@
   border: 6px solid purple;
   border-radius: 20px;
   border-style: dashed;
-}
-
-.candy img {
-  width: 200px;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
 }

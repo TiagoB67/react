@@ -1,11 +1,19 @@
 //Always use tsrfc not tsrafc
 import styles from './card_2.module.css'
-export default function Sweets() {
+
+type Props = {
+title: string,
+text: string,
+image: string
+}
+
+export default function Sweets({title, text, image}: Props) {
+
   return (
      <div className={styles.candy}> 
-        <h2>Sweets</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Candy-Cane-Classic.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Hero" />
-        <p>Paragraph made by Tiago</p>
+        <h2></h2>{title}
+        <img src={image} />
+        <p>{text}</p>
       </div>
   )
 }
